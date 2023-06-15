@@ -11,7 +11,7 @@ export default function TextEditor() {
         // const s = io("http://localhost:3001")
         // const s = io("wss://server.landzbergs.com")
         // const s = io("http://127.0.0.1:3001")
-        const s = io("http://0.0.0.0:3001")
+        const s = io("https://0.0.0.0:3001")
         setSocket(s)
 
         return () =>{
